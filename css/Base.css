@@ -220,6 +220,23 @@ p {
     text-shadow: var(--text-shadow); ;
     font-weight: var(--fw-bold);
 }
+@media (min-width: 768px) {
+    .spacial-name {
+        color: var(--primary);
+        font-size: var(--fs-xl);
+        margin-bottom: var(--space-2);
+        text-shadow: var(--text-shadow); ;
+        font-weight: var(--fw-bold);
+    }
+    .email,.whatsapp {
+        color: var(--primary);
+        font-size: var(--fs-lg);
+        text-transform:none;
+        margin-bottom: var(--space-2);
+        text-shadow: var(--text-shadow); ;
+        font-weight: var(--fw-bold);
+    }
+}
 
 
 /* Lists */
