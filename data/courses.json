@@ -1,0 +1,82 @@
+{
+            "courses": [
+                {
+                    "id": 1,
+                    "title": "web dev from zero",
+                    "description":  "Learn the fundamentals of web development from scratch and build a responsive website. Cover HTML, CSS, and JavaScript. Build a portfolio website and deploy it using GitHub Pages.",
+                    "thumbnail": "images/Playlists/Web_dev.png",
+                    "level": "beginner",
+                    "duration": "5 hours",
+                    "students": 500,
+                    "rating": 4.8,
+                    "category": "web-development",
+                    "playlist": [
+                        {"id": 1, "title": "يعني ايه مجال الويب|وازاي تبدأ فيه؟", "duration": "3:08", "videoUrl": "https://youtu.be/Z9d_--meMhU?si=LFp84b3IL3wU-y8O", "free": true},
+                        {"id": 2, "title": "web designer(UI/UX)", "duration": "9:39", "videoUrl": "https://youtu.be/W-Nur5F2UuE?si=2iAeSfBiCnjdhcck", "free": true},
+                        {"id": 3, "title": "Front-end Developer  ", "duration": "17:23", "videoUrl": "https://youtu.be/J9i7W063RcQ?si=rXdXmlEfISOvAd1F", "free": true},
+                        {"id": 4, "title": " Back-end Developer ", "duration": "7:24", "videoUrl": "https://youtu.be/rsBSAjSF1iw?si=MeGIrcyR0tYY0Zh9", "free": true}
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "learning notion",
+                    "description":"كورس Notion ان شاء الله لو انتا مش عارف اي هوا Notionامشي خطوة خطوة مع السلسله ديه وانت باذن الله هتحترف نوشن وتعمل اي فكره في دماغك ❤️✨",
+                    "thumbnail": "images/Playlists/Notion.png",
+                    "level": "beginner",
+                    "duration": "3 hours",
+                    "students": 500 ,
+                    "rating": 4.9,
+                    "category": "tools",
+                    "playlist": [
+                        {"id": 1, "title": "استكشاف ال Blocks علي Notion ؟🤔✨what it`s Blocks", "duration": "35:22", "videoUrl": "https://youtu.be/rawRjz6XEao?si=5tC_cyzED4l5ljXa", "free": true},
+                        {"id": 2, "title": "انشاء اول صفحة -مكتبتك الشخصيه books📚", "duration": "12:58", "videoUrl": "https://youtu.be/G3WtUTqXe9Q?si=GJTfpkCGzSgDlYTi", "free": true},
+                        {"id": 3, "title": "كيفية العمل علي Notion ومشاركة الصفحات🖇️✨", "duration": "9:52", "videoUrl": "https://youtu.be/-H_tKBsjvYw?si=qi7Z5GEBSRll00lA", "free": true},
+                        {"id": 4, "title": "لإدارة بياناتك بكفاءة وتنظيم حياتك استخدام Notion Database", "duration": "22:58", "videoUrl": "https://youtu.be/UwtMJ5PzM74?si=ou8LXAYu_y4KFvVj", "free": true},
+                        {"id": 5, "title": "Filter Database in Notion || فلتر قواعد البينات علي حسب قيمتها", "duration": "9:18", "videoUrl": "https://youtu.be/Bw_5AmcpIqg?si=nZRv7o2tE8sjayIR", "free": true},
+                        {"id": 6, "title": "تلخيص محتوي اي كورس وتحويل الكورس من انجليزي لعربي بمساعده  Notion & chatGPT4o", "duration": "23:04", "videoUrl": "https://youtu.be/vC_-5DmoiaE?si=nT8ucjfSCpfFNpMy", "free": true},
+                        {"id": 7, "title": "ابني جدولك بNotion 🧠عقلك التاني ✨♥️", "duration": "28:30", "videoUrl": "https://youtu.be/AwWJiA0nt_A?si=fbpnicSaVQHq3IhM", "free": true}
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "basics programming in C++",
+                    "description": "ان شاء الله هنشرح المفاهيم لاساسيه للبرمجه وكمان اي معلومه هتحتجها وانت لسه بتبدا باذن الله ❤️👾",
+                    "thumbnail": "images/Playlists/Basics_cpp.png",
+                    "level": "beginner",
+                    "duration": " 1.5 hours",
+                    "students": 500,
+                    "rating": 4.9,
+                    "category": "programming",
+                    "playlist": [
+                        {"id": 1, "title": "History of C++ (Arabic)", "duration": "5:16", "videoUrl": "https://youtu.be/W_7NBiNA2SA?si=WB6H84OByAap0st6", "free": true},
+                        {"id": 2, "title": "Install VScode & Compiler & Debugger | ( RUN code )اعداد بيئه العمل وحل مشكله", "duration": "20:06", "videoUrl": "https://youtu.be/YybYsxO6hyo?si=4D6uAxSPwB4qiouM", "free": true},
+                        {"id": 3, "title": "المتغيرات في البرمجة |the Variables", "duration": "14:59", "videoUrl": "https://youtu.be/XQOjNrEiG8A?si=nIKS7cxv6UOfcCFf", "free": true},
+                        {"id": 4, "title": "static type & Daynamic Type |ليه بنحدد نوع البينات للمتغير ؟" , "duration": "6:06", "videoUrl": "https://youtu.be/KB56jiFt2aY?si=Z9YI88fbVP6n3y0r", "free": true},
+                        {"id": 5, "title": "حل مشكله ++Run code c (فهم سبب المشكله؟)" , "duration": "15:85", "videoUrl": "https://youtu.be/LwS27mDRIvs?si=_m6Qkd9OiO_l0Bbv", "free": true}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "steps in programming world",
+                    "description": "",
+                    "thumbnail": "images/Playlists/Seteps_programing.png",
+                    "level": "beginner",
+                    "duration": "1 hour ",
+                    "students": 500,
+                    "rating": 4.7,
+                    "category": "programming",
+                    "playlist": [
+                        {"id": 1, "title": " من أين تبدأ رحلتك في عالم البرمجة وكيف تتعلم الأساسيات؟", "duration": "23:28", "videoUrl": "https://youtu.be/7rRVtvsoT4w?si=MyohlKgo_bHyr0qZ", "free": true},
+                        {"id": 2, "title": "كيفية عمل نظام فعال للمذاكرة وتدوين الملاحظات علي Notion ؟", "duration": "26:27", "videoUrl": "https://youtu.be/Xn_Ta_om0m0?si=-48s6694Mc5jKeQe", "free": true},
+                        {"id": 3, "title": "طريقك في تعلم البرمجة 🤔👾", "duration": "9:38", "videoUrl": "https://youtu.be/Y0HolzMOH14?si=3sqrTVYarLrW8ym3", "free": true}
+                    ]
+                }
+            ],
+            "categories": [
+                {"id": "all", "name": "All", "icon": "fa-th"},
+                {"id": "web-development", "name": "Web Development", "icon": "fa-code"},
+                {"id": "programming", "name": "Programming", "icon": "fa-laptop-code"},
+                {"id": "frameworks", "name": "Frameworks", "icon": "fa-code-branch"},
+                {"id": "tools", "name": "Tools", "icon": "fa-tools"}
+            ]
+        }

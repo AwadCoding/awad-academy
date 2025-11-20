@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Explore a variety of programming courses at Awad Academy. Enhance your skills with our comprehensive tutorials and hands-on projects."
+    />
+    <meta
+      name="keywords"
+      content="programming, coding, courses, tutorials, projects, learning, development , Awad Academy,notion "
+    />
+    <meta property="og:image" content="images/image-seo/courses.png" />
+    <meta property="og:title" content="Programming Courses - Awad Academy" />
+    <meta property="og:description" content="Explore a variety of programming courses at Awad Academy. Enhance your skills with our comprehensive tutorials and hands-on projects."/>
+    <meta name="author" content="Awad Academy" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="google" content="nositelinkssearchbox" />
+    <meta name="google" content="notranslate" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Awad Academy" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="msapplication-TileImage" content="images/favicon.ico" />
+    <meta name="msapplication-config" content="browserconfig.xml" />
+    <meta name="theme-color" content="#2b5797" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <title>Courses - Awad Academy</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/Base.css" />
+    <link rel="stylesheet" href="css/courses.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+      /* Courses Page Specific Styles */
+    </style>
+  </head>
+  <body>
+    <header class="header" data-aos="fade-down">
+      <div class="logo">
+        <a
+          href="index.html
+                "
+        >
+          <img src="images/logo.jpeg" alt="Awad Academy" />
+          <span> Awad Academy </span>
+        </a>
+      </div>
+      <!-- Burger Menu Button -->
+      <button class="burger-menu" id="burgerMenu" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="index.html">home</a></li>
+          <li><a class="active" href="courses.html">courses</a></li>
+          <li><a href="index.html#about">about</a></li>
+          <li><a href="index.html#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle">
+      <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="page-header" data-aos="fade-down">
+      <h1>learning courses 🎓</h1>
+
+      <p>Choose the right course for you and start your programming journey</p>
+    </div>
+
+    <div class="container">
+      <!-- Search & Filter -->
+      <div class="controls">
+        <div class="search-box" data-aos="fade-right">
+          <i class="fas fa-search"></i>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for a course..."
+          />
+        </div>
+        <div class="categories" id="categories" data-aos="fade-left">
+          <!-- Categories will be loaded here -->
+        </div>
+      </div>
+
+      <!-- Courses Grid -->
+      <div class="courses-grid" id="coursesGrid">
+        <div class="loading">
+          <i class="fas fa-spinner"></i>
+          <p>Loading courses...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="courseModal">
+      <div class="modal-content">
+        <button class="close-btn" id="closeModal">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h2 id="modalTitle"></h2>
+          <p id="modalDescription"></p>
+        </div>
+        <div class="modal-body">
+          <h3><i class="fas fa-list"></i> Course Content</h3>
+          <div class="playlist" id="playlist"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="text-footer">
+        <p>&copy; 2025 Awad Academy 👾. All rights reserved.</p>
+      </div>
+      <div class="social-links-footer">
+        <a href="https://www.linkedin.com/in/mahmoudawad11/" target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a href="https://github.com/AwadCoding" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/awad.coding/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/@awadcoding" target="_blank"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/courses.js"></script>
+  </body>
+</html>
