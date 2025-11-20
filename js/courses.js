@@ -58,7 +58,7 @@ let searchQuery = '';
 // تحميل ملف JSON من فولدر data
 async function loadJSON() {
     try {
-        const response = await fetch('../data/courses.json');
+        const response = await fetch('./data/courses.json');
         coursesData = await response.json();
 
         loadCategories();
